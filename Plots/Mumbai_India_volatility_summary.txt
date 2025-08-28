@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               log_eps2   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.120
+Method:                 Least Squares   F-statistic:                     294.0
+Date:                Tue, 26 Aug 2025   Prob (F-statistic):               0.00
+Time:                        14:14:16   Log-Likelihood:                -29073.
+No. Observations:               12855   AIC:                         5.816e+04
+Df Residuals:                   12848   BIC:                         5.821e+04
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -2.5089      0.020   -122.435      0.000      -2.549      -2.469
+cos1           0.8308      0.029     28.695      0.000       0.774       0.888
+sin1           0.7707      0.029     26.571      0.000       0.714       0.828
+cos2          -0.2886      0.029     -9.957      0.000      -0.345      -0.232
+sin2          -0.2571      0.029     -8.875      0.000      -0.314      -0.200
+cos3          -0.1624      0.029     -5.609      0.000      -0.219      -0.106
+sin3           0.1432      0.029      4.938      0.000       0.086       0.200
+==============================================================================
+Omnibus:                     3960.481   Durbin-Watson:                   1.827
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15615.023
+Skew:                          -1.491   Prob(JB):                         0.00
+Kurtosis:                       7.501   Cond. No.                         1.42
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
